@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("a").hover(hoverIn, hoverOut);
+    $("a").click(clickAction);
 })
 
 function animatedIn(){
@@ -7,6 +8,11 @@ function animatedIn(){
 }
 function animatedOut(){
     console.log("animated out!");
+}
+
+function clickAction(e){
+    e.preventDefault();
+    console.log("ouch!");
 }
 
 function hoverIn(){

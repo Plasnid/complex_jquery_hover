@@ -2,7 +2,7 @@
     border: 0;
     padding: 0;
     margin: 0;
-    font-size: 1em;
+    font-size: 1em; /* 16px is 1em*/
 }
 a{
     text-decoration: none;
